@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link href="https://db.onlinewebfonts.com/c/f2ecc6ef740fcf60de095b0b087dd58d?family=OCR+A+Extended+V1" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <table style="width: 100%;">
+            <th style="width: 34%;">
+                <div style="text-align:center;">Gardening Blog</div>
+            </th>
+        </table>
+    </header>
+    <div class="btn-group" style="width:100%">
+        <button style="width:33.3%" onclick="location.href='index.html'" type="button">The Gardens</button>
+        <button style="width:33.3%" onclick="location.href='plants.html'" type="button">The plants </button>
+        <button style="width:33.3%" onclick="location.href='insects.html'" type="button">Insects and others </button>
+    </div>
+    <p></p>
+    <div id="page-container">
+        <div id="page-wrap">
+            <div id="plant1">
+                <table>
+                    <thead>
+                        <tr>
+                            <td rowspan="3" style="width:35%; vertical-align: top;"> 
+                                <img class="boxplant" id="albahaca" src="assets/images/albahaca/albahaca1.jpg" alt="">
+                            </td>
+                            <td style="width:65%; height:10%; vertical-align: top;">Name: Basil</td>
+                        </tr>
+                        <tr style="height:10%;">
+                            <td style="vertical-align: top;" class="slidecontainer">                        
+                                    <input type="range" min="1" max="10" value="1" class="slider" id="myRangeAlbahaca">
+                                    <p id="demoAlbahaca">Week: 1</p>
+                            </td>
+                        </tr>
+                        <tr style="height:80%;">
+                            <td style="width:100%; vertical-align: top;" id="albahacaD">Observation: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="page-wrap">
+            <div id="plant2">
+                <table>
+                    <thead>
+                        <tr>
+                            <td rowspan="3" style="width:35%; vertical-align: top;"> 
+                                <img class="boxplant" id="berenjenaBlanca" src="assets/images/berenjenablanca/berenjenablanca1.jpg" alt="">
+                            </td>
+                            <td style="width:65%; height:10%; vertical-align: top;">Name: White Eggplant</td>
+                        </tr>
+                        <tr style="height:10%;">
+                            <td style="vertical-align: top;" class="slidecontainer">                        
+                                    <input type="range" min="1" max="10" value="1" class="slider" id="myRangeBerenjenaBlanca">
+                                    <p id="demoBerenjenaBlanca">Week: 1</p>
+                            </td>
+                        </tr>
+                        <tr style="height:80%;">
+                            <td style="width:100%; vertical-align: top;" id="berenjenaBlancaD">Observation: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <p></p>
+    <div class="footer">
+        <p>Author: Saul Napoleon Haro Hernandez 2024</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
