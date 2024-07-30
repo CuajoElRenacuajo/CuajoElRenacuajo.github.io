@@ -316,9 +316,6 @@ Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un in
         if(this.value == 9){
             document.getElementById("habasD").innerHTML = "Observation: 9";
         }
-        if(this.value == 10){
-            document.getElementById("habasD").innerHTML = "Observation: 10";
-        }
     }
 
 //hinojo
@@ -427,18 +424,6 @@ sliderMarigold.oninput = function() {
     outputMarigold.innerHTML = `Week: ${this.value}`;
     document.getElementById("marigold").src=`assets/images/marigold/marigold${this.value}.jpg`;
     
-        if(this.value == 1){
-            document.getElementById("marigoldD").innerHTML = `Cambios Importantes:
-Color Verde Vivo: La albahaca presenta un color verde vivo que indica buena salud y vitalidad.
-Frondosidad: La planta se muestra frondosa, con un crecimiento denso y exuberante.
-Modificaciones Observadas:
-Crecimiento de Hojas: Se observan nuevas hojas en desarrollo.
-Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un indicativo de que la planta está absorbiendo bien los nutrientes y el agua.
-`;
-        }
-        if(this.value == 2){
-            document.getElementById("marigoldD").innerHTML = "Observation: 2";
-        }
         if(this.value == 3){
             document.getElementById("marigoldD").innerHTML = "Observation: 3";
         }
@@ -667,18 +652,7 @@ sliderRomanChamoline.oninput = function() {
     outputRomanChamoline.innerHTML = `Week: ${this.value}`;
     document.getElementById("romanchamoline").src=`assets/images/romanchamoline/romanchamoline${this.value}.jpg`;
     
-        if(this.value == 1){
-            document.getElementById("romanchamolineD").innerHTML = `Cambios Importantes:
-Color Verde Vivo: La albahaca presenta un color verde vivo que indica buena salud y vitalidad.
-Frondosidad: La planta se muestra frondosa, con un crecimiento denso y exuberante.
-Modificaciones Observadas:
-Crecimiento de Hojas: Se observan nuevas hojas en desarrollo.
-Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un indicativo de que la planta está absorbiendo bien los nutrientes y el agua.
-`;
-        }
-        if(this.value == 2){
-            document.getElementById("romanchamolineD").innerHTML = "Observation: 2";
-        }
+       
         if(this.value == 3){
             document.getElementById("romanchamolineD").innerHTML = "Observation: 3";
         }
@@ -694,15 +668,7 @@ Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un in
         if(this.value == 7){
             document.getElementById("romanchamolineD").innerHTML = "Observation: 7";
         }
-        if(this.value == 8){
-            document.getElementById("romanchamolineD").innerHTML = "Observation: 8";
-        }
-        if(this.value == 9){
-            document.getElementById("romanchamolineD").innerHTML = "Observation: 9";
-        }
-        if(this.value == 10){
-            document.getElementById("romanchamolineD").innerHTML = "Observation: 10";
-        }
+
     }
 
 //romero
@@ -745,12 +711,6 @@ Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un in
         if(this.value == 8){
             document.getElementById("romeroD").innerHTML = "Observation: 8";
         }
-        if(this.value == 9){
-            document.getElementById("romeroD").innerHTML = "Observation: 9";
-        }
-        if(this.value == 10){
-            document.getElementById("romeroD").innerHTML = "Observation: 10";
-        }
     }
 
 //sage
@@ -792,12 +752,6 @@ Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un in
         }
         if(this.value == 8){
             document.getElementById("sageD").innerHTML = "Observation: 8";
-        }
-        if(this.value == 9){
-            document.getElementById("sageD").innerHTML = "Observation: 9";
-        }
-        if(this.value == 10){
-            document.getElementById("sageD").innerHTML = "Observation: 10";
         }
     }
 
@@ -891,9 +845,6 @@ Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un in
         }
         if(this.value == 9){
             document.getElementById("tomillofaustiniD").innerHTML = "Observation: 9";
-        }
-        if(this.value == 10){
-            document.getElementById("tomillofaustiniD").innerHTML = "Observation: 10";
         }
     }
 
