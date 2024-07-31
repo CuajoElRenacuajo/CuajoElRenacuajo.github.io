@@ -557,40 +557,54 @@ sliderPepino.oninput = function() {
     document.getElementById("pepino").src=`assets/images/pepino/pepino${this.value}.jpg`;
     
         if(this.value == 1){
-            document.getElementById("pepinoD").innerHTML = `Cambios Importantes:
-Color Verde Vivo: La albahaca presenta un color verde vivo que indica buena salud y vitalidad.
-Frondosidad: La planta se muestra frondosa, con un crecimiento denso y exuberante.
-Modificaciones Observadas:
-Crecimiento de Hojas: Se observan nuevas hojas en desarrollo.
-Salud de la Planta: Las hojas se visualizan gruesas y robustas, lo cual es un indicativo de que la planta está absorbiendo bien los nutrientes y el agua.
+            document.getElementById("pepinoD").innerHTML = `<p>The cucumber (Cucumis sativus) is a vegetable from the Cucurbitaceae family, native to India. It is known for its refreshing taste and high water content, which accounts for about 95% of its weight, making it a highly hydrating food.</p>
+                            
+                                <h2>Important Changes:</h2>
+                                <h3>Emergence of New Leaves and Shoots:</h3>
+                                <p>In the emerging stems of the cucumber plant, the development of new leaves in the form of buds and small shoots in a spiral shape can be observed. These signs indicate active and healthy growth of the plant.</p>
+                            
+                                <h3>Use of Support:</h3>
+                                <p>Since the cucumber is a climbing plant, support has been provided to help sustain the vertical growth of the plant and prevent the stems from trailing on the ground.</p>
 `;
         }
         if(this.value == 2){
-            document.getElementById("pepinoD").innerHTML = "Observation: 2";
+            document.getElementById("pepinoD").innerHTML = `<h2>Important Changes:</h2>
+    <h3>Growth and Lushness:</h3>
+    <p>The cucumber plant has grown significantly and has become more lush. This vigorous growth is a positive sign of its development.</p>
+
+    <h3>Observed Modifications:</h3>
+    <h4>Leaf Condition:</h4>
+    <p>Some of the leaves show various holes and small yellowish areas. These signs may indicate the presence of pests or a nutrient deficiency.</p>
+
+    <h4>Use of Support:</h4>
+    <p>Thanks to the provided support, the cucumber plant has started to attach itself with its tendrils. This helps to keep the plant upright and facilitates vertical growth.</p>
+
+    <h4>Bud Development:</h4>
+    <p>Along the plant's body, we can observe small buds with yellow petals. These buds indicate that the plant is in an active flowering phase.</p>`;
         }
         if(this.value == 3){
-            document.getElementById("pepinoD").innerHTML = "Observation: 3";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 4){
-            document.getElementById("pepinoD").innerHTML = "Observation: 4";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 5){
-            document.getElementById("pepinoD").innerHTML = "Observation: 5";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 6){
-            document.getElementById("pepinoD").innerHTML = "Observation: 6";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 7){
-            document.getElementById("pepinoD").innerHTML = "Observation: 7";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 8){
-            document.getElementById("pepinoD").innerHTML = "Observation: 8";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 9){
-            document.getElementById("pepinoD").innerHTML = "Observation: 9";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
         if(this.value == 10){
-            document.getElementById("pepinoD").innerHTML = "Observation: 10";
+            document.getElementById("pepinoD").innerHTML = ``;
         }
     }
 
