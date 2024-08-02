@@ -375,15 +375,13 @@ sliderGermanChamoline.oninput = function() {
 </p>`;
         }
         if(this.value == 6){
-            document.getElementById("germanchamolineD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    La planta ha desaparecido casi en su totalidad, dejando solo una pequeña parte visible en la base.
-</p>
-<h2>Modificaciones Observadas:</h2>
-    <p><strong>Tallaje:</strong> La planta contiene muy pocos tallos.</p>
-    <p><strong>Hojas:</strong> La cantidad de hojas ha disminuido considerablemente.</p>
-    <p><strong>Crecimiento:</strong> Solo queda el crecimiento en la base de la planta, que se mantiene firme a pesar de la falta de tallos.</p>
-`;
+            document.getElementById("germanchamolineD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant has almost entirely disappeared, leaving only a small part visible at the base.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Stems:</strong> The plant has very few stems remaining.</p>
+    <p><strong>Leaves:</strong> The number of leaves has decreased significantly.</p>
+    <p><strong>Growth:</strong> Only growth at the base of the plant remains, which is holding firm despite the lack of stems.</p>`;
         }
         if(this.value == 7){
             document.getElementById("germanchamolineD").innerHTML = `<h2>Important Changes:</h2>
@@ -1068,20 +1066,13 @@ sliderOregano.oninput = function() {
 </p>`;
         }
         if(this.value == 6){
-            document.getElementById("oreganoD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    El orégano se encuentra en un excelente estado, mostrando un crecimiento vigoroso y expansivo.
-</p>
-<h2>Modificaciones Observadas:</h2>
-<p>
-    <strong>Frondosidad:</strong> El orégano se ve visiblemente frondoso, con un aumento constante en su densidad.
-</p>
-<p>
-    <strong>Color:</strong> Su color es llamativo y vibrante.
-</p>
-<p>
-    <strong>Crecimiento:</strong> Está por invadir otras plantas a su alrededor debido a su expansión.
-</p>`;
+            document.getElementById("oreganoD").innerHTML = `<h2>General Condition:</h2>
+    <p>The oregano is in excellent condition, showing vigorous and expansive growth.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Leafiness:</strong> The oregano appears visibly leafy, with a constant increase in its density.</p>
+    <p><strong>Color:</strong> Its color is striking and vibrant.</p>
+    <p><strong>Growth:</strong> It is about to invade surrounding plants due to its expansion.</p>`;
         }
         if(this.value == 7){
             document.getElementById("oreganoD").innerHTML = `<h2>Important Changes:</h2>
@@ -1362,14 +1353,12 @@ sliderRomanChamoline.oninput = function() {
 </p>`;
         }
         if(this.value == 6){
-            document.getElementById("romanchamolineD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    La planta ha disminuido drásticamente y muestra un aspecto notablemente deteriorado.
-</p>
-<h2>Modificaciones Observadas:</h2>
-    <p><strong>Frondosidad:</strong> No muestra signos de frondosidad.</p>
-    <p><strong>Tallaje:</strong> Solo contiene unas pocas ramitas en el tallo.</p>
-`;
+            document.getElementById("romanchamolineD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant maintains a healthy state with no drastic changes.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Growth:</strong> It is more leafy and is spreading outwards.</p>
+    <p><strong>Color:</strong> It retains a deep and even green color.</p>`;
         }
         if(this.value == 7){
             document.getElementById("romanchamolineD").innerHTML = `<h2>Important Changes:</h2>
