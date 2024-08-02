@@ -48,11 +48,8 @@ body {
   background-color: #3e8e41;
 }
 
-
-
 #page-container {
   position: relative;
-  
   width: 85%;
   margin: 0 auto;
   padding: 20px;
@@ -71,21 +68,33 @@ body {
   height: 2.5rem;            /* Footer height */
 }
 
-#plant1{
+#plant1, #plant2 {
   width: 100%;
-  height: 500px;
   background-color: rgb(48, 150, 57);
-}
-#plant2{
-  width: 100%;
-  height: 500px;
-  background-color: rgb(123, 230, 132);
+  margin-bottom: 20px;
 }
 
-.boxplant{
-  width: 450px;
-  height: 450px;
-  
+.image-cell {
+  width: 35%;
+  vertical-align: top;
+}
+
+.title-cell {
+  width: 65%;
+  vertical-align: top;
+}
+
+.slider-row {
+  height: 10%;
+}
+
+.description-row {
+  height: auto;
+}
+
+.boxplant {
+  width: 450px; /* Fixed width */
+  height: auto; /* Allow height to adjust automatically */
 }
 
 .slidecontainer {
@@ -127,52 +136,25 @@ body {
   cursor: pointer; /* Cursor on hover */
 }
 
-table{
-  width:100%;
-  overflow-wrap: break-word;
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merge borders */
 }
 
-.smol{
-  height: 15%;
-}
-
-.table td {
+table td {
   border: 1px solid black;
   padding: 10px;
 }
 
-.slidecontainer {
-  width: 100%;
-}
-
-.slider {
-  width: 100%;
-}
-
-#plant1 td {
+#plant1 td, #plant2 td {
   vertical-align: top;
   padding: 10px;
-  height: 100%;
 }
 
-#plant2 td {
-  vertical-align: top;
-  padding: 10px;
-  height: 100%;
+h1 {
+  margin: 0;
 }
 
-#plant1 td#albahacaD {
-  height: 80%;
-  display: table-cell;
-  vertical-align: top;
-}
-
-h1{
-  margin: 0%;
-}
-
-
-
-p{
-  margin-top: 0%;
+p {
+  margin-top: 0;
 }
