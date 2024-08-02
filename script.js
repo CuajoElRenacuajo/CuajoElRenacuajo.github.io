@@ -61,13 +61,12 @@ sliderAlbahaca.oninput = function() {
 </p>`;
     }
     if(this.value == 6){
-        document.getElementById("albahacaD").innerHTML = `Albahaca
-Estado General:
-La planta muestra una mejoría general.
-Modificaciones Observadas:
-Hojas: Las hojas han mejorado, aunque algunas tienen hoyuelos.
-Frondosidad: Continúa siendo frondosa con un color verde uniforme y un brillo saludable.
-`;
+        document.getElementById("albahacaD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant shows overall improvement.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Leaves:</strong> The leaves have improved, though some still have indentations.</p>
+    <p><strong>Lushness:</strong> The plant continues to be lush with a uniform green color and a healthy shine.</p>`;
     }
     if(this.value == 7){
         document.getElementById("albahacaD").innerHTML = `<h2>General State:</h2>
@@ -326,79 +325,6 @@ sliderBerenjena.oninput = function() {
     <p>Buds and Flowers: Vibrant lilac buds and flowers can be seen. The presence of flowers indicates that the plant remains in an active production phase despite the issues with the leaves.</p>
 
     <p>Fruit Development: The plant displays three eggplants in development. While the fruits are growing, they show slight damage and yellowish hues. These signs might indicate problems with the plant, possibly related to environmental conditions or the overall health of the plant.</p>`;
-        }
-    }
-
-//chiles
-
-var sliderChiles = document.getElementById("myRangeChiles");
-var outputChiles = document.getElementById("demoChiles");
-outputChiles.innerHTML = sliderChiles.value;
-
-sliderChiles.oninput = function() {
-    outputChiles.innerHTML = `Week: ${this.value}`;
-    document.getElementById("chiles").src=`assets/images/chiles/chiles${this.value}.jpg`;
-    
-        if(this.value == 1){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>The plant shows vigorous and healthy development.</p>
-    <h2>Observed Modifications:</h2>
-    <p>The plant is lush with a strong stem. It already has buds and flowers, indicating good maturity and health.</p>.
-`;
-        }
-        if(this.value == 2){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>Increase in bud size.</p>
-    <h2>Observed Modifications:</h2>
-    <p>Some buds are flowering into peppers. More flowers have appeared, although the plant has lost some lower leaves.</p>`;
-        }
-        if(this.value == 3){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>Development of a large pepper.</p>
-    <h2>Observed Modifications:</h2>
-    <p>The pepper is slightly deformed but bright and healthy. There is a slight color change in the stem, possibly due to the large size of the pepper.</p>`;
-        }
-        if(this.value == 4){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>Increase in plant lushness and size.</p>
-    <h2>Observed Modifications:</h2>
-    <p>New pepper buds are developing, with small green balls protruding. The largest pepper has increased in size and looks healthy.</p>`;
-        }
-        if(this.value == 5){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>The plant maintains its good condition.</p>
-    <h2>Observed Modifications:</h2>
-    <p>The plant continues developing buds with light green and white tones.</p>`;
-        }
-        if(this.value == 6){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>Increase in the number of buds.</p>
-    <h2>Observed Modifications:</h2>
-    <p>Buds are in the process of becoming peppers, showing a dark and shiny green color. The plant shows increased lushness.</p>`;
-        }
-        if(this.value == 7){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>The plant has produced some peppers that have been harvested.</p>
-    <h2>Observed Modifications:</h2>
-    <p>The plant is larger and lush, but some leaves are chewed. It has been invaded by another plant, although it remains stable and in development.</p>`;
-        }
-        if(this.value == 8){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>The plant has become more lush.</p>
-    <h2>Observed Modifications:</h2>
-    <p>It maintains a dark green color with shiny leaves, although some appear chewed.</p>`;
-        }
-        if(this.value == 9){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>Initiation of new flowering.</p>
-    <h2>Observed Modifications:</h2>
-    <p>Some leaves appear dark and wilted. The plant is heavily invaded by other plants.</p>`;
-        }
-        if(this.value == 10){
-            document.getElementById("chilesD").innerHTML = `<h2>Important Changes:</h2>
-    <p>The plant shows stability and the growth of red, shiny peppers.</p>
-    <h2>Observed Modifications:</h2>
-    <p>The plant has developed well despite the limited available space.</p>`;
         }
     }
 
@@ -916,7 +842,11 @@ sliderMarigold.oninput = function() {
     document.getElementById("marigold").src=`assets/images/marigold/marigold${this.value}.jpg`;
     
         if(this.value == 1){
-            document.getElementById("marigoldD").innerHTML = ``;
+            document.getElementById("marigoldD").innerHTML = `<p>The African Marigold (Tagetes erecta) is a herbaceous plant belonging to the Asteraceae family. It is commonly grown as an annual in cold climates and as a perennial in warmer climates. Its ornamental appearance and colorful flowers make it popular in gardening for decorating gardens, borders, and pots.</p>
+
+                                <h2>Important Changes:</h2>
+                                <p><strong>Mature State:</strong> The plant is in a mature state.</p>
+                                <p><strong>Blooming:</strong> A fluffy flower has bloomed with shades of yellow and white, similar to ivory.</p>`;
         }
         if(this.value == 2){
             document.getElementById("marigoldD").innerHTML = `<h2>Important Changes:</h2>
@@ -1325,10 +1255,11 @@ sliderPimiento.oninput = function() {
     document.getElementById("pimiento").src=`assets/images/pimiento/pimiento${this.value}.jpg`;
     
         if(this.value == 1){
-            document.getElementById("pimientoD").innerHTML = `<h2>Important Changes:</h2>
-    <p>The plant appears healthy and lush.</p>
-    <h2>Observed Modifications:</h2>
-    <p>New leaf shoots and small green buds are visible.</p>`;
+            document.getElementById("pimientoD").innerHTML = `<p>Pepper, (genus Capsicum), genus of more than 30 species of flowering plants in the nightshade family (Solanaceae), several of which are extensively cultivated for their edible, often pungent fruits.</p>
+                                <h2>Important Changes:</h2>
+                        <p>The plant shows vigorous and healthy development.</p>
+                        <h2>Observed Modifications:</h2>
+                        <p>The plant is lush with a strong stem. It already has buds and flowers, indicating good maturity and health.</p>`;
         }
         if(this.value == 2){
             document.getElementById("pimientoD").innerHTML = `<h2>Important Changes:</h2>
@@ -1851,10 +1782,8 @@ sliderTomilloFaustini.oninput = function() {
 </p>`;
         }
         if(this.value == 6){
-            document.getElementById("tomillofaustiniD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    La planta ha mostrado un notable crecimiento en tamaño y robustez. El color de las hojas y los tallos ha intensificado, evidenciando una mayor adaptación y vigor. El desarrollo general de la planta indica una buena salud y crecimiento.
-</p>`;
+            document.getElementById("tomillofaustiniD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant has shown notable growth in size and robustness. The color of the leaves and stems has intensified, indicating greater adaptation and vigor. The overall development of the plant suggests good health and growth.</p>`;
         }
         if(this.value == 7){
             document.getElementById("tomillofaustiniD").innerHTML = `<h2>Important Changes:</h2>
@@ -1933,17 +1862,12 @@ sliderTomilloMesa.oninput = function() {
 </p>`;
         }
         if(this.value == 6){
-            document.getElementById("tomillomesaD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    La planta de tomillo de mesa ha experimentado un crecimiento notable, mostrando un aspecto saludable y frondoso.
-</p>
-<h2>Modificaciones Observadas:</h2>
-<p>
-    <strong>Frondosidad:</strong> La planta se ha expandido desuniformemente, pero con una mayor cantidad de hojas en los tallos, dándole un aspecto frondoso.
-</p>
-<p>
-    <strong>Color:</strong> El color de las hojas es uniforme, indicativo de buena salud.
-</p>`;
+            document.getElementById("tomillomesaD").innerHTML = `<h2>General Condition:</h2>
+    <p>The thyme mesa plant has experienced notable growth, showing a healthy and lush appearance.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Lushness:</strong> The plant has expanded unevenly but with a greater number of leaves on the stems, giving it a lush appearance.</p>
+    <p><strong>Color:</strong> The color of the leaves is uniform, indicating good health.</p>`;
         }
         if(this.value == 7){
             document.getElementById("tomillomesaD").innerHTML = `<h2>Important Changes:</h2>
@@ -2024,24 +1948,22 @@ sliderTropaeolum.oninput = function() {
 </p>`;
         }
         if(this.value == 5){
-            document.getElementById("tropaeolumD").innerHTML = `Estado General:
-La planta muestra un crecimiento expansivo y constante frondosidad.
-Modificaciones Observadas:
-Expansión: La planta se está extendiendo por los jardines, ocupando más espacio.
-Frondosidad: Presenta una frondosidad continua y numerosos tallos.
-Hojas: Se observan pequeñas hojas saliendo, pero sin capullos ni flores visibles.
-Invadido: Ha invadido la planta de berenjena.
-`;
+            document.getElementById("tropaeolumD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant shows expansive growth and consistent lushness.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Expansion:</strong> The plant is spreading throughout the gardens, taking up more space.</p>
+    <p><strong>Lushness:</strong> It exhibits continuous lushness and numerous stems.</p>
+    <p><strong>Leaves:</strong> Small leaves are emerging, but there are no visible buds or flowers.</p>
+    <p><strong>Invasion:</strong> It has invaded the eggplant plant.</p>`;
         }
         if(this.value == 6){
-            document.getElementById("tropaeolumD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    La planta se ha extendido por todo el jardín y muestra un crecimiento generalizado.
-</p>
-<h2>Modificaciones Observadas:</h2>
-<p><strong>Florecimiento:</strong> Ha florecido una pequeña flor de color anaranjado con un toque rojizo en el centro.</p>
-<p><strong>Tallaje y Hojas:</strong> Los tallos son gruesos y las hojas son frondosas, mostrando diferentes tonalidades.</p>
-`;
+            document.getElementById("tropaeolumD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant has spread throughout the garden and shows widespread growth.</p>
+
+    <h2>Observed Modifications:</h2>
+    <p><strong>Blooming:</strong> A small orange flower with a reddish center has bloomed.</p>
+    <p><strong>Stems and Leaves:</strong> The stems are thick, and the leaves are lush, displaying various shades.</p>`;
         }
         if(this.value == 7){
             document.getElementById("tropaeolumD").innerHTML = `<h2>Important Changes:</h2>
