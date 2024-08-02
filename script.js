@@ -976,10 +976,8 @@ sliderMenta.oninput = function() {
 </p>`;
         }
         if(this.value == 6){
-            document.getElementById("mentaD").innerHTML = `<h2>Estado General:</h2>
-<p>
-    La planta ha experimentado una pérdida significativa de hojas, con el tallo visible en gran parte de la planta. A pesar de esta pérdida, se observan signos de recuperación en forma de nuevas hojas emergiendo en la base y en la parte media de la planta.
-</p>`;
+            document.getElementById("mentaD").innerHTML = `<h2>General Condition:</h2>
+    <p>The plant has experienced a significant loss of leaves, with the stem visible in much of the plant. Despite this loss, signs of recovery are observed with new leaves emerging at the base and in the middle part of the plant.</p>`;
         }
         if(this.value == 7){
             document.getElementById("mentaD").innerHTML = `<h2>Important Changes:</h2>
